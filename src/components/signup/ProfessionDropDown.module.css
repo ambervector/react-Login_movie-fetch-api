@@ -1,0 +1,14 @@
+select#profession {
+  width: 30%;
+  height: 3rem;
+  margin-left: 0.5rem;
+}
+
+.custom_profession {
+  display: block;
+  margin-left: 1rem;
+}
+
+label {
+  margin-right: 1rem;
+}

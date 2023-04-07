@@ -1,0 +1,71 @@
+.signup_right {
+  width: 50%;
+  height: inherit;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  border-radius: 0 10rem 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+legend {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+form {
+  width: 100%;
+  padding: 0 10rem;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+label {
+  width: 30%;
+  font-weight: 500;
+}
+input {
+  width: 70%;
+  border: none;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+}
+
+.input_btn {
+  height: 3rem;
+  width: 60%;
+  text-align: center;
+  border: none;
+  border-radius: 5rem;
+  font-weight: 600;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+}
+
+.btn_box {
+  margin-top: 3rem;
+  text-align: center;
+}
+.input_btn:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+span {
+  color: red;
+}

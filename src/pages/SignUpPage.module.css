@@ -1,0 +1,20 @@
+.sign_up {
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 3rem auto;
+  border: none;
+  border-radius: 10rem;
+  background-color: #e0e0e0;
+}
+
+
+.container {
+  margin: 5rem auto;
+  background-color: rgb(121, 15, 219);
+  height: 85vh;
+  width: 90%;
+  border: none;
+  border-radius: 10rem;
+}

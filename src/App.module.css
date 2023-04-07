@@ -1,0 +1,8 @@
+.container {
+  margin: 5rem auto;
+  background-color: rgb(121, 15, 219);
+  height: 85vh;
+  width: 90%;
+  border: none;
+  border-radius: 10rem;
+}
