@@ -39,7 +39,7 @@ const MovieItem = ({ movieItem }) => {
             <p className={styles.movieTitle}>{title}</p>
             <p>Genre : {genre}</p>
             <p>Director: {director}</p>
-            <p>Starring: {stars.join(",")}</p>
+            <p className={styles.starring }>Starring: {stars.join(",")}</p>
             <p>
               <span>{language} | </span>
               <span>{moment(releasedDate).format("DD, MMM")}</span>
